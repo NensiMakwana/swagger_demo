@@ -7,9 +7,9 @@ set :application, "swagger_demo"
 set :repo_url, "git@github.com:NensiMakwana/swagger_demo.git"
 set :user, 'ubuntu'
 
-# set :passenger_restart_with_touch, true
 set :rvm_ruby_version, '2.3.1@swagger_demo'
 set :rvm_custom_path, "/usr/share/rvm"
+set :passenger_restart_with_touch, true
 
 # Don't change these unless you know what you're doing
 set :pty, true
